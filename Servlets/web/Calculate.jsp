@@ -24,10 +24,10 @@
       cursor: pointer;
       height: 30px; /* height of the background image */
       width: 100px; /* width of the background image */
-      border: 5px solid #fff;
+      border: 2px solid #fff;
       border-radius: 4em;
     }
-    h1 {}
+    h1 {font-family: "Lato", sans-serif; font-weight: 700; color: #ffffff;}
   </style>
 </head>
 <body>
