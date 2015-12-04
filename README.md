@@ -6,5 +6,6 @@ List of Technologies
 <li>Servlets / Java Server Pages</li>
 <p align="center"/><img src="http://i.imgur.com/PWka5jk.png"/></p>
 <i>A basic webpage where the user interacts with the input fields and it performs some basic calculation to display using JSP</i>
+<p align="center"/><img src="http://i.imgur.com/pwWe4KB.png"/></p>
 <li>Struts</li>
 </ul>
