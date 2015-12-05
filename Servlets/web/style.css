@@ -3,80 +3,150 @@ body {
     padding: 0;
     margin: 0;
 }
-input[type=submit] {
-    background: transparent url("https://jira.appcelerator.org/secure/thumbnail/23534/_thumb_23534.png") 0 0 no-repeat;
-    font-weight: bold;
-    display: inline-block;
-    text-align: center;
-    color:white;
+#submit {
+    border: 0 none;
+    border-radius: 5px;
+    padding: 12px 45px;
+    margin: 0 10px;
     cursor: pointer;
-    height: 30px; /* height of the background image */
-    width: 100px; /* width of the background image */
-    border: 2px solid #fff;
-    border-radius: 4em;
-}
-h1 {
-    font-family: "Lato", sans-serif;
-    font-weight: 700;
-    color: #ffffff;
-    margin: 0 0 30px;
-    padding: 0;
-    border: 0;
-    outline: 0;
+    display: inline-block;
+    font-size: 12px;
+    color: white;
+    text-transform: none;
+    transition: all 100ms ease-in-out;
+    background-color: #1abc9c;
 }
 
-#header {
-    text-align: center;
-    color: #ffffff;
-    background-color: #34b3fa;
-    line-height: 50px;
-    height: 375px;
-    margin: 0px 0px 30px;
-
+#submit:hover {
+    opacity: .7;
 }
 
-#middle {
-    color: #959595;
-    background-color: #ffffff;
-    background-size: 100%;
-    text-align: center;
-    border: none;
-    height: 200px;
+head {
+    background-color: black;
+    margin: 0px auto;
+}
+
+a.title:hover {
+    color: #1abc9c;
+    font-size: 12px;
+}
+
+a.title {
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 50px;
+}
+.toplayer {
+    background-color: #1abc9c;
+    height: 10px;
     width: 100%;
-    margin: 0 0 50px;
-    top: 300px;
-
-}
-#middle.content {
-    display: table-cell;
-    vertical-align:middle;
-    horiz-align: center;
 }
 
-#footer {
-    border: none;
-    margin: 0 auto;
+.menupanel {
+    background-color: white;
+    height: 40px;
+    width: 100%;
+    padding: 10px;
     text-align: center;
-    line-height: 40px;
+    margin: 0px auto;
+}
+
+.showcase {
+    background-color: #1abc9c;
+    width: 100%;
     height: 300px;
-    color: #808080;
-    background-color: #dce0e1;
+    display: inline-block;
 }
 
-a:link {
-    color: #3498DB;
+ul{
+    top: 50%;
+    transform: translateY(-50%);
 }
 
-/* visited link */
-a:visited {
-    color: #E67E22;
+li {
+    display: inline;
+    padding: 10px;
+    border: 1px solid lightgrey;
 }
 
-/* mouse over link */
+a {
+    text-decoration: none;
+    color: grey;
+}
+
 a:hover {
-    color: #2980B9;
+    color: lightgrey;
 }
 
-a:active {
-    color: red;
+
+.contentpanel {
+    background-color: grey;
+    height: 150px;
+    width: 100%;
+}
+
+.title {
+    font-size: 20px;
+}
+
+
+.showcasecontent {
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    text-align: right;
+    float: left;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.showcasetext {
+    display: inline-block;
+    height: 100%;
+    width: 50%;
+    float: right;
+}
+
+.footer{
+    background-color: #1C1C1C;
+    height: 300px;
+    width:  100%;
+    text-align: center;
+    font-size: 10px;
+    margin: 0px auto;
+    display: inline-block;
+    color: white;
+}
+
+.calculate {
+    text-align: center;
+    width: 100%;
+    height: 300px;
+
+}
+
+.calculatecontent {
+    margin-top: 30px;
+}
+
+#showcaseimage{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-right: 20px;
+}
+
+#showcasetext{
+    font-family: "Bariol_Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: left;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    margin-left: 20px;
+}
+
+.socialmedia:hover {
+    opacity: .75;
 }
